@@ -3,12 +3,9 @@
 using namespace std;
 
 int main() {
-    int x, y;
+    int x, y, z;
     cin >> x >> y;
-    if (x == 1) {
-        cout << "x is 1" << endl;
-    }
-
-    cout << x << " + " << y << " = " << x + y << endl << x << " * " << y << " = " << x * y;
+    z=(x + y - 1) / y;
+    cout << z;
     return 0;
 }
