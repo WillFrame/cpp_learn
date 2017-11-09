@@ -11,6 +11,6 @@ int main() {
     a = z - ((z / 10) * 10);
     z = x / 100;
     b = z - ((z / 10) * 10);
-    cout << y + a +b;
+    cout << y + a + b;
     return 0;
 }
