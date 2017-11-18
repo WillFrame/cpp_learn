@@ -7,11 +7,13 @@ int main() {
 
     cin >> x >> y >> x1 >> y1;
     if (x == x1) {
-        cout << "Yes"; }
-    else {
+        cout << "Yes";
+    } else {
         if (y == y1) {
-            cout << "Yes"; }
-        else { cout << "No"; }
+            cout << "Yes";
+        } else {
+            cout << "No";
+        }
     }
 
     return 0;
