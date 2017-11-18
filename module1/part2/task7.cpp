@@ -4,12 +4,13 @@
 using namespace std;
 
 int main() {
-    int x, y;
+    int x, y, z;
     cin >> x;
     y = 1;
-    while (sqrt(x) > y) {
+    z = sqrt(x);
+    while (z > y) {
         cout << y * y << endl;
-        y = y + 1;
+        ++y;
     }
     return 0;
 }
