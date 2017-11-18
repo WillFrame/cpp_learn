@@ -18,7 +18,8 @@ int main() {
         if (y > z) {
             if (y < x + z) {
                 cout << "Yes";
-            } else { cout << "No";
+            } else {
+                cout << "No";
             }
         } else {
             if (z < x + y) {
