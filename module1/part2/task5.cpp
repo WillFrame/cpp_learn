@@ -14,7 +14,8 @@ int main() {
         if (y == z) {
             cout << 2;
         } else {
-            cout << 0; }
+            cout << 0;
+        }
     }
 
     return 0;
