@@ -13,7 +13,9 @@ int main() {
     } else {
         if (y > z) {
             cout << y;
-        } else { cout << z; }
+        } else {
+            cout << z; 
+        }
     }
 
     return 0;
