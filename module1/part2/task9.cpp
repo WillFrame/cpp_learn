@@ -7,7 +7,7 @@ int main() {
 
     cin >> x;
     y = 1;
-    while (x > y) {
+    while (x >= y) {
         cout << y << " ";
         y = y * 2;
     }
