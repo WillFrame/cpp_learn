@@ -8,8 +8,8 @@ int main() {
     cin >> x;
     y = 1;
     z = sqrt(x);
-    while (z > y) {
-        cout << y * y << endl;
+    while (z >= y) {
+        cout << y * y << " ";
         ++y;
     }
     return 0;
