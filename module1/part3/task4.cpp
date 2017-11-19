@@ -4,11 +4,9 @@
 using namespace std;
 
 int main () {
-    int x,y,z;
+    int x = -1, y = 0, z = 0;
     double w;
 
-    z = 0;
-    y = 0;
     while (x != 0) {
         cin >> x;
         z += x;
